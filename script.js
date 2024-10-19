@@ -16,3 +16,9 @@ console.log(subject2.content)
 const subject3 = new subject("Physics", "Energy")
 console.log(subject3.name)
 console.log(subject3.content)
+
+class Book{
+    constructor(brand){
+        this.bookname = brand
+    }
+}
